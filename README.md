@@ -1,16 +1,16 @@
 # flutter_chat_app
 
-A new Flutter project.
+This is a chat app written with Flutter using MVVM (Model-View-ViewModel) pattern.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+You need to get your own [OpenAI API Key](https://platform.openai.com/api-keys).
+Paste it to .env file so it will look like as following: 
+```
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxx
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+and then you can 
+```
+flutter run
+```
