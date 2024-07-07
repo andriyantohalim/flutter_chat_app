@@ -48,13 +48,16 @@ class ChatView extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 32.0), // Added bottom padding
               child: Row(
                 children: [
                   Expanded(
                     child: TextField(
                       controller: _controller,
-                      decoration: const InputDecoration(hintText: 'Type your message'),
+                      decoration: const InputDecoration(
+                        hintText: 'Type your message', 
+                        ),
+                      // Remove the onTap callback that explicitly requests focus
                     ),
                   ),
                   IconButton(
