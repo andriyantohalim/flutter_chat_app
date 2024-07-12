@@ -1,15 +1,15 @@
 # Flutter Chat App
 
-This is a chat app written with Flutter using the MVVM (Model-View-ViewModel) pattern.
+This is a chat application developed using the Flutter framework and follows the MVVM (Model-View-ViewModel) architecture pattern. It leverages OpenAI's API for enhanced chat functionality.
 
 ## Getting Started
 
 ### Prerequisites
 
 Ensure you have the following installed:
-- Flutter SDK: [Installation Guide](https://flutter.dev/docs/get-started/install)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
 - Dart SDK
-- An IDE (VS Code, Android Studio, etc.)
+- An IDE such as [VS Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
 
 ### Installation
 
@@ -38,31 +38,44 @@ Ensure you have the following installed:
 
 ## Project Structure
 
-Provide an overview of the project structure:
+An overview of the project structure to help you navigate the codebase:
 - `lib/` - Contains the Dart code for the app
-  - `models/` - Data models
-  - `view_models/` - ViewModels for the MVVM pattern
-  - `views/` - UI components
+  - `models/` - Defines the data models used in the application
+  - `view_models/` - Contains the ViewModel classes adhering to the MVVM pattern
+  - `views/` - Includes the UI components and screens
 
 ## Features
 
-- Chat functionality with OpenAI integration
-- MVVM architecture
-- Cross-platform support (iOS, Android, Web, Desktop)
+- **Chat Functionality:** Users can send and receive messages through an intuitive chat interface.
+- **OpenAI Integration:** Utilizes OpenAI's API for advanced conversational capabilities.
+- **MVVM Architecture:** Ensures a clear separation of concerns, making the app scalable and maintainable.
+- **Cross-Platform Support:** Compatible with iOS, Android, Web, and Desktop platforms.
 
 ## Contributing
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature-name`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature-name`)
-5. Open a pull request
+We welcome contributions from the community! Follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. Commit your changes:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5. Open a pull request on GitHub.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgements
 
-- [Flutter](https://flutter.dev/)
-- [OpenAI](https://openai.com/)
+- [Flutter](https://flutter.dev/) for providing the framework.
+- [OpenAI](https://openai.com/) for the conversational AI API.
+
+For more information, visit the [project repository](https://github.com/andriyantohalim/flutter_chat_app).
