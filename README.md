@@ -2,6 +2,8 @@
 
 This is a chat application developed using the Flutter framework and follows the MVVM (Model-View-ViewModel) architecture pattern. It leverages OpenAI's API for enhanced chat functionality.
 
+Watch the demo [here](https://www.youtube.com/shorts/nT3ia0_UVPM)
+
 ## Getting Started
 
 ### Prerequisites
